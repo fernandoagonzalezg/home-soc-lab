@@ -18,7 +18,7 @@
     |      |       |
     |      |       |
  Windows  Ubuntu   Future
- Endpoint Endpoint  AD Server
+Endpoint Endpoint  AD Server
     |
   Sysmon
     |
