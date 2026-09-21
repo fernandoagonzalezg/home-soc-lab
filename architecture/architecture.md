@@ -22,8 +22,6 @@ Endpoint Endpoint  AD Server
     |
   Sysmon
     |
-    v
    Wazuh
     |
-    v
    SOC
