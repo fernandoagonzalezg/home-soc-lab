@@ -22,8 +22,6 @@
     |
   Sysmon
     |
-    v
    Wazuh
     |
-    v
    SOC
