@@ -1,0 +1,111 @@
+# ==========================================
+# Home SOC Lab - Git Ignore
+# ==========================================
+
+# Secrets and credentials
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+secrets/
+credentials/
+passwords/
+
+# SSH keys
+id_rsa
+id_rsa.pub
+*.pub
+
+# API keys / tokens
+*api_key*
+*apikey*
+*token*
+*secret*
+
+# Logs
+*.log
+logs/
+
+# Windows event logs
+*.evtx
+
+# Packet captures
+*.pcap
+*.pcapng
+captures/
+
+# Large forensic files
+*.dmp
+*.mem
+*.raw
+*.img
+
+# Virtual machine files
+*.vmdk
+*.vdi
+*.vhd
+*.vhdx
+*.qcow2
+*.ova
+*.ovf
+
+# VirtualBox
+.vbox
+.vbox-prev
+
+# VMware
+*.vmem
+*.nvram
+*.vmss
+*.vswp
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Windows temporary files
+*.tmp
+*.temp
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Python environment/configuration
+.python-version
+
+# PowerShell
+*.ps1.bak
+
+# IDE/editor files
+.vscode/settings.json
+.idea/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Temporary files
+tmp/
+temp/
+
+# Personal information
+personal/
+private/
+pii/
+
+# Local lab configuration
+local-config/
